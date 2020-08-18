@@ -1,30 +1,23 @@
 {
-  "name": "tailwind-tutorial",
-  "version": "1.0.0",
-  "description": "Tailwind tutorial with Net Ninja",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GillyRabutTsurwa/tailwind-with-netninja.git"
-  },
-  "keywords": [
-    "css",
-    "tailwind",
-    "css-frameworks",
-    "net-ninja",
-    "tutorial",
-    "learning"
-  ],
-  "author": "Gilbert Rabut Tsurwa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GillyRabutTsurwa/tailwind-with-netninja/issues"
-  },
-  "homepage": "https://github.com/GillyRabutTsurwa/tailwind-with-netninja#readme",
-  "dependencies": {
-    "tailwindcss": "^1.6.3"
-  }
+	"name": "tailwind-tutorial",
+	"version": "1.0.0",
+	"description": "Tailwind tutorial with Net Ninja",
+	"main": "index.js",
+	"scripts": {
+		"buildtailwind": "tailwindcss build src/styles.css -o dist/styles.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GillyRabutTsurwa/tailwind-with-netninja.git"
+	},
+	"keywords": [ "css", "tailwind", "css-frameworks", "net-ninja", "tutorial", "learning" ],
+	"author": "Gilbert Rabut Tsurwa",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/GillyRabutTsurwa/tailwind-with-netninja/issues"
+	},
+	"homepage": "https://github.com/GillyRabutTsurwa/tailwind-with-netninja#readme",
+	"dependencies": {
+		"tailwindcss": "^1.6.3"
+	}
 }
