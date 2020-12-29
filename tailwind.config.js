@@ -1,3 +1,4 @@
+// these are our custom styles that are accessible on top of the default styles that tailwind uses under the hood
 module.exports = {
   purge: [],
   theme: {
