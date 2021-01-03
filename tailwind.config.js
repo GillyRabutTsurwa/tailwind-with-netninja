@@ -10,6 +10,10 @@ module.exports = {
           200: "#888883",
         },
       },
+      // NOTE: How to add our custom fonts with tailwind
+      fontFamily: {
+        mainFont: ["Nunito"],
+      },
     },
   },
   variants: {},
